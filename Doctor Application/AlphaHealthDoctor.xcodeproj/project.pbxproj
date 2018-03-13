@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03BAFAC3CA33116511D28B30 /* Pods_AlphaHealthDoctor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2D1CF4F7C362CE2D5F15AD /* Pods_AlphaHealthDoctor.framework */; };
+		359D45C542DF04ECBE7FB847 /* Pods_AlphaHealthDoctorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8355065212664583B584E5 /* Pods_AlphaHealthDoctorTests.framework */; };
+		49D5739CB0E3C24E71DFD2FA /* Pods_AlphaHealthDoctorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3A5E34E515EBC02A246DC0 /* Pods_AlphaHealthDoctorUITests.framework */; };
+		95F2347220551D8D00E4C49B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2347120551D8D00E4C49B /* AppDelegate.swift */; };
+		95F2347420551D8D00E4C49B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2347320551D8D00E4C49B /* ViewController.swift */; };
+		95F2347720551D8D00E4C49B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F2347520551D8D00E4C49B /* Main.storyboard */; };
+		95F2347920551D8D00E4C49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F2347820551D8D00E4C49B /* Assets.xcassets */; };
+		95F2347C20551D8D00E4C49B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F2347A20551D8D00E4C49B /* LaunchScreen.storyboard */; };
+		95F2348720551D8D00E4C49B /* AlphaHealthDoctorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2348620551D8D00E4C49B /* AlphaHealthDoctorTests.swift */; };
+		95F2349220551D8D00E4C49B /* AlphaHealthDoctorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2349120551D8D00E4C49B /* AlphaHealthDoctorUITests.swift */; };
+		95F234A02055300800E4C49B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2349F2055300800E4C49B /* Constants.swift */; };
+		95F234A62055385E00E4C49B /* rajdhani-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95F234A12055384500E4C49B /* rajdhani-bold.ttf */; };
+		95F234A72055385E00E4C49B /* rajdhani-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95F234A32055384A00E4C49B /* rajdhani-light.ttf */; };
+		95F234A82055385E00E4C49B /* rajdhani-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95F234A42055384A00E4C49B /* rajdhani-medium.ttf */; };
+		95F234A92055385E00E4C49B /* rajdhani-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95F234A52055384A00E4C49B /* rajdhani-regular.ttf */; };
+		95F234AA2055385E00E4C49B /* rajdhani-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95F234A22055384700E4C49B /* rajdhani-semibold.ttf */; };
+		95F234AB2055386400E4C49B /* rajdhani-bold.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 95F234A12055384500E4C49B /* rajdhani-bold.ttf */; };
+		95F234AC2055386400E4C49B /* rajdhani-light.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 95F234A32055384A00E4C49B /* rajdhani-light.ttf */; };
+		95F234AD2055386400E4C49B /* rajdhani-medium.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 95F234A42055384A00E4C49B /* rajdhani-medium.ttf */; };
+		95F234AE2055386400E4C49B /* rajdhani-regular.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 95F234A52055384A00E4C49B /* rajdhani-regular.ttf */; };
+		95F234AF2055386400E4C49B /* rajdhani-semibold.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 95F234A22055384700E4C49B /* rajdhani-semibold.ttf */; };
+		95F234B120553AF800E4C49B /* PatientInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F234B020553AF800E4C49B /* PatientInformationViewController.swift */; };
+		95F234BE20553E2C00E4C49B /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F234B420553E2A00E4C49B /* ToggleTorchButton.swift */; };
+		95F234BF20553E2C00E4C49B /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F234B520553E2A00E4C49B /* QRCodeReaderViewControllerDelegate.swift */; };
+		95F234C020553E2C00E4C49B /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F234B620553E2A00E4C49B /* QRCodeReader.swift */; };
+		95F234C120553E2C00E4C49B /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F234B720553E2B00E4C49B /* QRCodeReaderViewController.swift */; };
+		95F234C220553E2C00E4C49B /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F234B820553E2B00E4C49B /* QRCodeReaderViewControllerBuilder.swift */; };
+		95F234C320553E2C00E4C49B /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F234B920553E2B00E4C49B /* QRCodeReaderView.swift */; };
+		95F234C420553E2C00E4C49B /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F234BA20553E2B00E4C49B /* ReaderOverlayView.swift */; };
+		95F234C520553E2C00E4C49B /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F234BB20553E2B00E4C49B /* QRCodeReaderViewContainer.swift */; };
+		95F234C620553E2C00E4C49B /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F234BC20553E2B00E4C49B /* QRCodeReaderResult.swift */; };
+		95F234C720553E2C00E4C49B /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F234BD20553E2C00E4C49B /* SwitchCameraButton.swift */; };
+		95F814E220556E5200E57765 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F814E120556E5200E57765 /* TabBarViewController.swift */; };
+		95F814E42055722A00E57765 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F814E32055722A00E57765 /* DashboardTableViewCell.swift */; };
+		95F814E620559C4B00E57765 /* DiseaseInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F814E520559C4B00E57765 /* DiseaseInformationViewController.swift */; };
+		95F814EA2055C20100E57765 /* PatientsHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F814E92055C20100E57765 /* PatientsHistoryViewController.swift */; };
+		95F814EC2055C30C00E57765 /* PatientHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F814EB2055C30C00E57765 /* PatientHistoryTableViewCell.swift */; };
+		95F814EE2055E01C00E57765 /* DiseaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F814ED2055E01C00E57765 /* DiseaseTableViewController.swift */; };
+		95F814F02056153400E57765 /* requestMedicalReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F814EF2056153300E57765 /* requestMedicalReportViewController.swift */; };
+		95F814F22056192000E57765 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95F814F12056192000E57765 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95F2348320551D8D00E4C49B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95F2346620551D8D00E4C49B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95F2346D20551D8D00E4C49B;
+			remoteInfo = AlphaHealthDoctor;
+		};
+		95F2348E20551D8D00E4C49B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95F2346620551D8D00E4C49B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95F2346D20551D8D00E4C49B;
+			remoteInfo = AlphaHealthDoctor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B2D1CF4F7C362CE2D5F15AD /* Pods_AlphaHealthDoctor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlphaHealthDoctor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE543109FEF9420D6BEB7E7 /* Pods-AlphaHealthDoctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaHealthDoctor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaHealthDoctor/Pods-AlphaHealthDoctor.debug.xcconfig"; sourceTree = "<group>"; };
+		95F2346E20551D8D00E4C49B /* AlphaHealthDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaHealthDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F2347120551D8D00E4C49B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95F2347320551D8D00E4C49B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95F2347620551D8D00E4C49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95F2347820551D8D00E4C49B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95F2347B20551D8D00E4C49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95F2347D20551D8D00E4C49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F2348220551D8D00E4C49B /* AlphaHealthDoctorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaHealthDoctorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F2348620551D8D00E4C49B /* AlphaHealthDoctorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaHealthDoctorTests.swift; sourceTree = "<group>"; };
+		95F2348820551D8D00E4C49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F2348D20551D8D00E4C49B /* AlphaHealthDoctorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaHealthDoctorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F2349120551D8D00E4C49B /* AlphaHealthDoctorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaHealthDoctorUITests.swift; sourceTree = "<group>"; };
+		95F2349320551D8D00E4C49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F2349F2055300800E4C49B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		95F234A12055384500E4C49B /* rajdhani-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rajdhani-bold.ttf"; sourceTree = "<group>"; };
+		95F234A22055384700E4C49B /* rajdhani-semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rajdhani-semibold.ttf"; sourceTree = "<group>"; };
+		95F234A32055384A00E4C49B /* rajdhani-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rajdhani-light.ttf"; sourceTree = "<group>"; };
+		95F234A42055384A00E4C49B /* rajdhani-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rajdhani-medium.ttf"; sourceTree = "<group>"; };
+		95F234A52055384A00E4C49B /* rajdhani-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rajdhani-regular.ttf"; sourceTree = "<group>"; };
+		95F234B020553AF800E4C49B /* PatientInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientInformationViewController.swift; sourceTree = "<group>"; };
+		95F234B420553E2A00E4C49B /* ToggleTorchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTorchButton.swift; sourceTree = "<group>"; };
+		95F234B520553E2A00E4C49B /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
+		95F234B620553E2A00E4C49B /* QRCodeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeReader.swift; sourceTree = "<group>"; };
+		95F234B720553E2B00E4C49B /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewController.swift; sourceTree = "<group>"; };
+		95F234B820553E2B00E4C49B /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewControllerBuilder.swift; sourceTree = "<group>"; };
+		95F234B920553E2B00E4C49B /* QRCodeReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeReaderView.swift; sourceTree = "<group>"; };
+		95F234BA20553E2B00E4C49B /* ReaderOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderOverlayView.swift; sourceTree = "<group>"; };
+		95F234BB20553E2B00E4C49B /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
+		95F234BC20553E2B00E4C49B /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		95F234BD20553E2C00E4C49B /* SwitchCameraButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCameraButton.swift; sourceTree = "<group>"; };
+		95F814E120556E5200E57765 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		95F814E32055722A00E57765 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		95F814E520559C4B00E57765 /* DiseaseInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseInformationViewController.swift; sourceTree = "<group>"; };
+		95F814E92055C20100E57765 /* PatientsHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsHistoryViewController.swift; sourceTree = "<group>"; };
+		95F814EB2055C30C00E57765 /* PatientHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		95F814ED2055E01C00E57765 /* DiseaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseTableViewController.swift; sourceTree = "<group>"; };
+		95F814EF2056153300E57765 /* requestMedicalReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = requestMedicalReportViewController.swift; sourceTree = "<group>"; };
+		95F814F12056192000E57765 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		99FE6AC19B3042A5C9C63A65 /* Pods-AlphaHealthDoctor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaHealthDoctor.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaHealthDoctor/Pods-AlphaHealthDoctor.release.xcconfig"; sourceTree = "<group>"; };
+		9A787C96E3FA0B3F0BBAACCE /* Pods-AlphaHealthDoctorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaHealthDoctorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaHealthDoctorTests/Pods-AlphaHealthDoctorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A8355065212664583B584E5 /* Pods_AlphaHealthDoctorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlphaHealthDoctorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3A5E34E515EBC02A246DC0 /* Pods_AlphaHealthDoctorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlphaHealthDoctorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BF8CB89F85B053C4B1DBAF /* Pods-AlphaHealthDoctorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaHealthDoctorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaHealthDoctorTests/Pods-AlphaHealthDoctorTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD1D63B0D2EEA94862183B61 /* Pods-AlphaHealthDoctorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaHealthDoctorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaHealthDoctorUITests/Pods-AlphaHealthDoctorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D55F0F29218F43D34F480421 /* Pods-AlphaHealthDoctorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaHealthDoctorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaHealthDoctorUITests/Pods-AlphaHealthDoctorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95F2346B20551D8D00E4C49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BAFAC3CA33116511D28B30 /* Pods_AlphaHealthDoctor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F2347F20551D8D00E4C49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359D45C542DF04ECBE7FB847 /* Pods_AlphaHealthDoctorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F2348A20551D8D00E4C49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D5739CB0E3C24E71DFD2FA /* Pods_AlphaHealthDoctorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93CAB363E29E5D2DCC177399 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FE543109FEF9420D6BEB7E7 /* Pods-AlphaHealthDoctor.debug.xcconfig */,
+				99FE6AC19B3042A5C9C63A65 /* Pods-AlphaHealthDoctor.release.xcconfig */,
+				9A787C96E3FA0B3F0BBAACCE /* Pods-AlphaHealthDoctorTests.debug.xcconfig */,
+				B9BF8CB89F85B053C4B1DBAF /* Pods-AlphaHealthDoctorTests.release.xcconfig */,
+				D55F0F29218F43D34F480421 /* Pods-AlphaHealthDoctorUITests.debug.xcconfig */,
+				BD1D63B0D2EEA94862183B61 /* Pods-AlphaHealthDoctorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		95F2346520551D8D00E4C49B = {
+			isa = PBXGroup;
+			children = (
+				95F2347020551D8D00E4C49B /* AlphaHealthDoctor */,
+				95F2348520551D8D00E4C49B /* AlphaHealthDoctorTests */,
+				95F2349020551D8D00E4C49B /* AlphaHealthDoctorUITests */,
+				95F2346F20551D8D00E4C49B /* Products */,
+				93CAB363E29E5D2DCC177399 /* Pods */,
+				F4743047BA066603D5D846CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95F2346F20551D8D00E4C49B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95F2346E20551D8D00E4C49B /* AlphaHealthDoctor.app */,
+				95F2348220551D8D00E4C49B /* AlphaHealthDoctorTests.xctest */,
+				95F2348D20551D8D00E4C49B /* AlphaHealthDoctorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95F2347020551D8D00E4C49B /* AlphaHealthDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				95F814F12056192000E57765 /* GoogleService-Info.plist */,
+				95F2347120551D8D00E4C49B /* AppDelegate.swift */,
+				95F814E32055722A00E57765 /* DashboardTableViewCell.swift */,
+				95F2347320551D8D00E4C49B /* ViewController.swift */,
+				95F234C820553EAC00E4C49B /* QR Scanner */,
+				95F2347520551D8D00E4C49B /* Main.storyboard */,
+				95F2347820551D8D00E4C49B /* Assets.xcassets */,
+				95F2347A20551D8D00E4C49B /* LaunchScreen.storyboard */,
+				95F2347D20551D8D00E4C49B /* Info.plist */,
+				95F234A12055384500E4C49B /* rajdhani-bold.ttf */,
+				95F234A32055384A00E4C49B /* rajdhani-light.ttf */,
+				95F234A42055384A00E4C49B /* rajdhani-medium.ttf */,
+				95F234A52055384A00E4C49B /* rajdhani-regular.ttf */,
+				95F234A22055384700E4C49B /* rajdhani-semibold.ttf */,
+				95F2349F2055300800E4C49B /* Constants.swift */,
+				95F234B020553AF800E4C49B /* PatientInformationViewController.swift */,
+				95F814E120556E5200E57765 /* TabBarViewController.swift */,
+				95F814E520559C4B00E57765 /* DiseaseInformationViewController.swift */,
+				95F814E92055C20100E57765 /* PatientsHistoryViewController.swift */,
+				95F814EB2055C30C00E57765 /* PatientHistoryTableViewCell.swift */,
+				95F814ED2055E01C00E57765 /* DiseaseTableViewController.swift */,
+				95F814EF2056153300E57765 /* requestMedicalReportViewController.swift */,
+			);
+			path = AlphaHealthDoctor;
+			sourceTree = "<group>";
+		};
+		95F2348520551D8D00E4C49B /* AlphaHealthDoctorTests */ = {
+			isa = PBXGroup;
+			children = (
+				95F2348620551D8D00E4C49B /* AlphaHealthDoctorTests.swift */,
+				95F2348820551D8D00E4C49B /* Info.plist */,
+			);
+			path = AlphaHealthDoctorTests;
+			sourceTree = "<group>";
+		};
+		95F2349020551D8D00E4C49B /* AlphaHealthDoctorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95F2349120551D8D00E4C49B /* AlphaHealthDoctorUITests.swift */,
+				95F2349320551D8D00E4C49B /* Info.plist */,
+			);
+			path = AlphaHealthDoctorUITests;
+			sourceTree = "<group>";
+		};
+		95F234C820553EAC00E4C49B /* QR Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				95F234B620553E2A00E4C49B /* QRCodeReader.swift */,
+				95F234BC20553E2B00E4C49B /* QRCodeReaderResult.swift */,
+				95F234B920553E2B00E4C49B /* QRCodeReaderView.swift */,
+				95F234BB20553E2B00E4C49B /* QRCodeReaderViewContainer.swift */,
+				95F234B720553E2B00E4C49B /* QRCodeReaderViewController.swift */,
+				95F234B820553E2B00E4C49B /* QRCodeReaderViewControllerBuilder.swift */,
+				95F234B520553E2A00E4C49B /* QRCodeReaderViewControllerDelegate.swift */,
+				95F234BA20553E2B00E4C49B /* ReaderOverlayView.swift */,
+				95F234BD20553E2C00E4C49B /* SwitchCameraButton.swift */,
+				95F234B420553E2A00E4C49B /* ToggleTorchButton.swift */,
+			);
+			path = "QR Scanner";
+			sourceTree = "<group>";
+		};
+		F4743047BA066603D5D846CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B2D1CF4F7C362CE2D5F15AD /* Pods_AlphaHealthDoctor.framework */,
+				9A8355065212664583B584E5 /* Pods_AlphaHealthDoctorTests.framework */,
+				AE3A5E34E515EBC02A246DC0 /* Pods_AlphaHealthDoctorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95F2346D20551D8D00E4C49B /* AlphaHealthDoctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F2349620551D8D00E4C49B /* Build configuration list for PBXNativeTarget "AlphaHealthDoctor" */;
+			buildPhases = (
+				46AAE3609A3CAA7D64601BE3 /* [CP] Check Pods Manifest.lock */,
+				95F2346A20551D8D00E4C49B /* Sources */,
+				95F2346B20551D8D00E4C49B /* Frameworks */,
+				95F2346C20551D8D00E4C49B /* Resources */,
+				1C1F0C0F55C217F5E9BF3607 /* [CP] Embed Pods Frameworks */,
+				1CCF7B825119217780E7D96D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlphaHealthDoctor;
+			productName = AlphaHealthDoctor;
+			productReference = 95F2346E20551D8D00E4C49B /* AlphaHealthDoctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95F2348120551D8D00E4C49B /* AlphaHealthDoctorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F2349920551D8D00E4C49B /* Build configuration list for PBXNativeTarget "AlphaHealthDoctorTests" */;
+			buildPhases = (
+				185226279073B194B987FD87 /* [CP] Check Pods Manifest.lock */,
+				95F2347E20551D8D00E4C49B /* Sources */,
+				95F2347F20551D8D00E4C49B /* Frameworks */,
+				95F2348020551D8D00E4C49B /* Resources */,
+				CA4A74691DF95055C19553E9 /* [CP] Embed Pods Frameworks */,
+				8105ADD8182F4EB5D5C49EC8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95F2348420551D8D00E4C49B /* PBXTargetDependency */,
+			);
+			name = AlphaHealthDoctorTests;
+			productName = AlphaHealthDoctorTests;
+			productReference = 95F2348220551D8D00E4C49B /* AlphaHealthDoctorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95F2348C20551D8D00E4C49B /* AlphaHealthDoctorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F2349C20551D8D00E4C49B /* Build configuration list for PBXNativeTarget "AlphaHealthDoctorUITests" */;
+			buildPhases = (
+				B4B57A26BF5C5D1261CFBC1F /* [CP] Check Pods Manifest.lock */,
+				95F2348920551D8D00E4C49B /* Sources */,
+				95F2348A20551D8D00E4C49B /* Frameworks */,
+				95F2348B20551D8D00E4C49B /* Resources */,
+				4E5F2188FA721FACF4717C25 /* [CP] Embed Pods Frameworks */,
+				F5A253C5CDC09D06951BB655 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95F2348F20551D8D00E4C49B /* PBXTargetDependency */,
+			);
+			name = AlphaHealthDoctorUITests;
+			productName = AlphaHealthDoctorUITests;
+			productReference = 95F2348D20551D8D00E4C49B /* AlphaHealthDoctorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95F2346620551D8D00E4C49B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Saransh Mittal";
+				TargetAttributes = {
+					95F2346D20551D8D00E4C49B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					95F2348120551D8D00E4C49B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95F2346D20551D8D00E4C49B;
+					};
+					95F2348C20551D8D00E4C49B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95F2346D20551D8D00E4C49B;
+					};
+				};
+			};
+			buildConfigurationList = 95F2346920551D8D00E4C49B /* Build configuration list for PBXProject "AlphaHealthDoctor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95F2346520551D8D00E4C49B;
+			productRefGroup = 95F2346F20551D8D00E4C49B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95F2346D20551D8D00E4C49B /* AlphaHealthDoctor */,
+				95F2348120551D8D00E4C49B /* AlphaHealthDoctorTests */,
+				95F2348C20551D8D00E4C49B /* AlphaHealthDoctorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95F2346C20551D8D00E4C49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F234A62055385E00E4C49B /* rajdhani-bold.ttf in Resources */,
+				95F234A72055385E00E4C49B /* rajdhani-light.ttf in Resources */,
+				95F814F22056192000E57765 /* GoogleService-Info.plist in Resources */,
+				95F234A82055385E00E4C49B /* rajdhani-medium.ttf in Resources */,
+				95F234A92055385E00E4C49B /* rajdhani-regular.ttf in Resources */,
+				95F234AA2055385E00E4C49B /* rajdhani-semibold.ttf in Resources */,
+				95F2347C20551D8D00E4C49B /* LaunchScreen.storyboard in Resources */,
+				95F2347920551D8D00E4C49B /* Assets.xcassets in Resources */,
+				95F2347720551D8D00E4C49B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F2348020551D8D00E4C49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F2348B20551D8D00E4C49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		185226279073B194B987FD87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlphaHealthDoctorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C1F0C0F55C217F5E9BF3607 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlphaHealthDoctor/Pods-AlphaHealthDoctor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftWebSocket/SwiftWebSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftWebSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlphaHealthDoctor/Pods-AlphaHealthDoctor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CCF7B825119217780E7D96D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlphaHealthDoctor/Pods-AlphaHealthDoctor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46AAE3609A3CAA7D64601BE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlphaHealthDoctor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E5F2188FA721FACF4717C25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlphaHealthDoctorUITests/Pods-AlphaHealthDoctorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8105ADD8182F4EB5D5C49EC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlphaHealthDoctorTests/Pods-AlphaHealthDoctorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4B57A26BF5C5D1261CFBC1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlphaHealthDoctorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA4A74691DF95055C19553E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlphaHealthDoctorTests/Pods-AlphaHealthDoctorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5A253C5CDC09D06951BB655 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlphaHealthDoctorUITests/Pods-AlphaHealthDoctorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95F2346A20551D8D00E4C49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F234BE20553E2C00E4C49B /* ToggleTorchButton.swift in Sources */,
+				95F234AB2055386400E4C49B /* rajdhani-bold.ttf in Sources */,
+				95F234C420553E2C00E4C49B /* ReaderOverlayView.swift in Sources */,
+				95F234AC2055386400E4C49B /* rajdhani-light.ttf in Sources */,
+				95F234C120553E2C00E4C49B /* QRCodeReaderViewController.swift in Sources */,
+				95F234C320553E2C00E4C49B /* QRCodeReaderView.swift in Sources */,
+				95F814E620559C4B00E57765 /* DiseaseInformationViewController.swift in Sources */,
+				95F814EA2055C20100E57765 /* PatientsHistoryViewController.swift in Sources */,
+				95F814F02056153400E57765 /* requestMedicalReportViewController.swift in Sources */,
+				95F814E42055722A00E57765 /* DashboardTableViewCell.swift in Sources */,
+				95F234BF20553E2C00E4C49B /* QRCodeReaderViewControllerDelegate.swift in Sources */,
+				95F234AD2055386400E4C49B /* rajdhani-medium.ttf in Sources */,
+				95F814E220556E5200E57765 /* TabBarViewController.swift in Sources */,
+				95F234AE2055386400E4C49B /* rajdhani-regular.ttf in Sources */,
+				95F234C220553E2C00E4C49B /* QRCodeReaderViewControllerBuilder.swift in Sources */,
+				95F234C720553E2C00E4C49B /* SwitchCameraButton.swift in Sources */,
+				95F234AF2055386400E4C49B /* rajdhani-semibold.ttf in Sources */,
+				95F234C520553E2C00E4C49B /* QRCodeReaderViewContainer.swift in Sources */,
+				95F2347420551D8D00E4C49B /* ViewController.swift in Sources */,
+				95F814EC2055C30C00E57765 /* PatientHistoryTableViewCell.swift in Sources */,
+				95F234B120553AF800E4C49B /* PatientInformationViewController.swift in Sources */,
+				95F2347220551D8D00E4C49B /* AppDelegate.swift in Sources */,
+				95F234C620553E2C00E4C49B /* QRCodeReaderResult.swift in Sources */,
+				95F814EE2055E01C00E57765 /* DiseaseTableViewController.swift in Sources */,
+				95F234C020553E2C00E4C49B /* QRCodeReader.swift in Sources */,
+				95F234A02055300800E4C49B /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F2347E20551D8D00E4C49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F2348720551D8D00E4C49B /* AlphaHealthDoctorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F2348920551D8D00E4C49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F2349220551D8D00E4C49B /* AlphaHealthDoctorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95F2348420551D8D00E4C49B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95F2346D20551D8D00E4C49B /* AlphaHealthDoctor */;
+			targetProxy = 95F2348320551D8D00E4C49B /* PBXContainerItemProxy */;
+		};
+		95F2348F20551D8D00E4C49B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95F2346D20551D8D00E4C49B /* AlphaHealthDoctor */;
+			targetProxy = 95F2348E20551D8D00E4C49B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95F2347520551D8D00E4C49B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F2347620551D8D00E4C49B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95F2347A20551D8D00E4C49B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F2347B20551D8D00E4C49B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95F2349420551D8D00E4C49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95F2349520551D8D00E4C49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95F2349720551D8D00E4C49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE543109FEF9420D6BEB7E7 /* Pods-AlphaHealthDoctor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JCRFV5ZL52;
+				INFOPLIST_FILE = AlphaHealthDoctor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyblue.AlphaHealthDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95F2349820551D8D00E4C49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99FE6AC19B3042A5C9C63A65 /* Pods-AlphaHealthDoctor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JCRFV5ZL52;
+				INFOPLIST_FILE = AlphaHealthDoctor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyblue.AlphaHealthDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95F2349A20551D8D00E4C49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A787C96E3FA0B3F0BBAACCE /* Pods-AlphaHealthDoctorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlphaHealthDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyblue.AlphaHealthDoctorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlphaHealthDoctor.app/AlphaHealthDoctor";
+			};
+			name = Debug;
+		};
+		95F2349B20551D8D00E4C49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9BF8CB89F85B053C4B1DBAF /* Pods-AlphaHealthDoctorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlphaHealthDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyblue.AlphaHealthDoctorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlphaHealthDoctor.app/AlphaHealthDoctor";
+			};
+			name = Release;
+		};
+		95F2349D20551D8D00E4C49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D55F0F29218F43D34F480421 /* Pods-AlphaHealthDoctorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlphaHealthDoctorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyblue.AlphaHealthDoctorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlphaHealthDoctor;
+			};
+			name = Debug;
+		};
+		95F2349E20551D8D00E4C49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD1D63B0D2EEA94862183B61 /* Pods-AlphaHealthDoctorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlphaHealthDoctorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyblue.AlphaHealthDoctorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlphaHealthDoctor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95F2346920551D8D00E4C49B /* Build configuration list for PBXProject "AlphaHealthDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F2349420551D8D00E4C49B /* Debug */,
+				95F2349520551D8D00E4C49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F2349620551D8D00E4C49B /* Build configuration list for PBXNativeTarget "AlphaHealthDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F2349720551D8D00E4C49B /* Debug */,
+				95F2349820551D8D00E4C49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F2349920551D8D00E4C49B /* Build configuration list for PBXNativeTarget "AlphaHealthDoctorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F2349A20551D8D00E4C49B /* Debug */,
+				95F2349B20551D8D00E4C49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F2349C20551D8D00E4C49B /* Build configuration list for PBXNativeTarget "AlphaHealthDoctorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F2349D20551D8D00E4C49B /* Debug */,
+				95F2349E20551D8D00E4C49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95F2346620551D8D00E4C49B /* Project object */;
+}

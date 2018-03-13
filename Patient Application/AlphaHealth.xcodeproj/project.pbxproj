@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		143E21A8F282ABCEB2D3A137 /* Pods_AlphaHealthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 081F08FFA41CF78BC37CF9A0 /* Pods_AlphaHealthUITests.framework */; };
+		46E63F3F258D52C23B3F122A /* Pods_AlphaHealthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823E345745473F36423A34CF /* Pods_AlphaHealthTests.framework */; };
+		95F2341C2054555C00E4C49B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2341B2054555C00E4C49B /* AppDelegate.swift */; };
+		95F2341E2054555C00E4C49B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2341D2054555C00E4C49B /* ViewController.swift */; };
+		95F234212054555C00E4C49B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F2341F2054555C00E4C49B /* Main.storyboard */; };
+		95F234232054555C00E4C49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F234222054555C00E4C49B /* Assets.xcassets */; };
+		95F234262054555C00E4C49B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F234242054555C00E4C49B /* LaunchScreen.storyboard */; };
+		95F234312054555C00E4C49B /* AlphaHealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F234302054555C00E4C49B /* AlphaHealthTests.swift */; };
+		95F2343C2054555C00E4C49B /* AlphaHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2343B2054555C00E4C49B /* AlphaHealthUITests.swift */; };
+		95F2344A2054560B00E4C49B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F234492054560B00E4C49B /* LoginViewController.swift */; };
+		95F2344C20545DAF00E4C49B /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2344B20545DAF00E4C49B /* SignupViewController.swift */; };
+		95F2345320546E7600E4C49B /* rajdhani-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95F2344D20546E2A00E4C49B /* rajdhani-bold.ttf */; };
+		95F2345420546E7600E4C49B /* rajdhani-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95F2344F20546E2C00E4C49B /* rajdhani-light.ttf */; };
+		95F2345520546E7600E4C49B /* rajdhani-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95F2345020546E2D00E4C49B /* rajdhani-medium.ttf */; };
+		95F2345620546E7600E4C49B /* rajdhani-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95F2345120546E2E00E4C49B /* rajdhani-regular.ttf */; };
+		95F2345720546E7600E4C49B /* rajdhani-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95F2344E20546E2B00E4C49B /* rajdhani-semibold.ttf */; };
+		95F2345820546E7B00E4C49B /* rajdhani-bold.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 95F2344D20546E2A00E4C49B /* rajdhani-bold.ttf */; };
+		95F2345920546E7B00E4C49B /* rajdhani-light.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 95F2344F20546E2C00E4C49B /* rajdhani-light.ttf */; };
+		95F2345A20546E7B00E4C49B /* rajdhani-medium.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 95F2345020546E2D00E4C49B /* rajdhani-medium.ttf */; };
+		95F2345B20546E7B00E4C49B /* rajdhani-regular.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 95F2345120546E2E00E4C49B /* rajdhani-regular.ttf */; };
+		95F2345C20546E7B00E4C49B /* rajdhani-semibold.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 95F2344E20546E2B00E4C49B /* rajdhani-semibold.ttf */; };
+		95F2345E20547A9900E4C49B /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2345D20547A9900E4C49B /* DashboardViewController.swift */; };
+		95F2346020549A7E00E4C49B /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2345F20549A7E00E4C49B /* HistoryViewController.swift */; };
+		95F234642055044D00E4C49B /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F234632055044D00E4C49B /* HealthKit.framework */; };
+		95F814E82055A16800E57765 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F814E72055A16800E57765 /* TabBarViewController.swift */; };
+		95F814F42056192900E57765 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95F814F32056192900E57765 /* GoogleService-Info.plist */; };
+		95F814F620561FBE00E57765 /* testTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F814F520561FBE00E57765 /* testTableViewCell.swift */; };
+		C69F5A42FABD00A44C789FA6 /* Pods_AlphaHealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD60772DB93DC0AB1D262873 /* Pods_AlphaHealth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95F2342D2054555C00E4C49B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95F234102054555C00E4C49B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95F234172054555C00E4C49B;
+			remoteInfo = AlphaHealth;
+		};
+		95F234382054555C00E4C49B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95F234102054555C00E4C49B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95F234172054555C00E4C49B;
+			remoteInfo = AlphaHealth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		081F08FFA41CF78BC37CF9A0 /* Pods_AlphaHealthUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlphaHealthUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		295CB9AE4DBF426F81E1C758 /* Pods-AlphaHealthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaHealthTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaHealthTests/Pods-AlphaHealthTests.release.xcconfig"; sourceTree = "<group>"; };
+		62C88BE6231742B9EAD0856C /* Pods-AlphaHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaHealth.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaHealth/Pods-AlphaHealth.release.xcconfig"; sourceTree = "<group>"; };
+		823E345745473F36423A34CF /* Pods_AlphaHealthTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlphaHealthTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82892AF8F614C71A69978DFE /* Pods-AlphaHealthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaHealthTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaHealthTests/Pods-AlphaHealthTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95F234182054555C00E4C49B /* AlphaHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F2341B2054555C00E4C49B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95F2341D2054555C00E4C49B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95F234202054555C00E4C49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95F234222054555C00E4C49B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95F234252054555C00E4C49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95F234272054555C00E4C49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F2342C2054555C00E4C49B /* AlphaHealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaHealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F234302054555C00E4C49B /* AlphaHealthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaHealthTests.swift; sourceTree = "<group>"; };
+		95F234322054555C00E4C49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F234372054555C00E4C49B /* AlphaHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F2343B2054555C00E4C49B /* AlphaHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaHealthUITests.swift; sourceTree = "<group>"; };
+		95F2343D2054555C00E4C49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F234492054560B00E4C49B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		95F2344B20545DAF00E4C49B /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		95F2344D20546E2A00E4C49B /* rajdhani-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rajdhani-bold.ttf"; sourceTree = "<group>"; };
+		95F2344E20546E2B00E4C49B /* rajdhani-semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rajdhani-semibold.ttf"; sourceTree = "<group>"; };
+		95F2344F20546E2C00E4C49B /* rajdhani-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rajdhani-light.ttf"; sourceTree = "<group>"; };
+		95F2345020546E2D00E4C49B /* rajdhani-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rajdhani-medium.ttf"; sourceTree = "<group>"; };
+		95F2345120546E2E00E4C49B /* rajdhani-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rajdhani-regular.ttf"; sourceTree = "<group>"; };
+		95F2345D20547A9900E4C49B /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		95F2345F20549A7E00E4C49B /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		95F234612055044C00E4C49B /* AlphaHealth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlphaHealth.entitlements; sourceTree = "<group>"; };
+		95F234632055044D00E4C49B /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		95F814E72055A16800E57765 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		95F814F32056192900E57765 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		95F814F520561FBE00E57765 /* testTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTableViewCell.swift; sourceTree = "<group>"; };
+		968B62D0D11A41F288558E26 /* Pods-AlphaHealthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaHealthUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaHealthUITests/Pods-AlphaHealthUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A5046344B06D439E7F6C35F3 /* Pods-AlphaHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaHealth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaHealth/Pods-AlphaHealth.debug.xcconfig"; sourceTree = "<group>"; };
+		B114283D108D294871656519 /* Pods-AlphaHealthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaHealthUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaHealthUITests/Pods-AlphaHealthUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD60772DB93DC0AB1D262873 /* Pods_AlphaHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlphaHealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95F234152054555C00E4C49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F234642055044D00E4C49B /* HealthKit.framework in Frameworks */,
+				C69F5A42FABD00A44C789FA6 /* Pods_AlphaHealth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F234292054555C00E4C49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E63F3F258D52C23B3F122A /* Pods_AlphaHealthTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F234342054555C00E4C49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143E21A8F282ABCEB2D3A137 /* Pods_AlphaHealthUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CDD3883A8221C98AEEDB974 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5046344B06D439E7F6C35F3 /* Pods-AlphaHealth.debug.xcconfig */,
+				62C88BE6231742B9EAD0856C /* Pods-AlphaHealth.release.xcconfig */,
+				82892AF8F614C71A69978DFE /* Pods-AlphaHealthTests.debug.xcconfig */,
+				295CB9AE4DBF426F81E1C758 /* Pods-AlphaHealthTests.release.xcconfig */,
+				B114283D108D294871656519 /* Pods-AlphaHealthUITests.debug.xcconfig */,
+				968B62D0D11A41F288558E26 /* Pods-AlphaHealthUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		95F2340F2054555C00E4C49B = {
+			isa = PBXGroup;
+			children = (
+				95F2341A2054555C00E4C49B /* AlphaHealth */,
+				95F2342F2054555C00E4C49B /* AlphaHealthTests */,
+				95F2343A2054555C00E4C49B /* AlphaHealthUITests */,
+				95F234192054555C00E4C49B /* Products */,
+				95F234622055044D00E4C49B /* Frameworks */,
+				5CDD3883A8221C98AEEDB974 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		95F234192054555C00E4C49B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95F234182054555C00E4C49B /* AlphaHealth.app */,
+				95F2342C2054555C00E4C49B /* AlphaHealthTests.xctest */,
+				95F234372054555C00E4C49B /* AlphaHealthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95F2341A2054555C00E4C49B /* AlphaHealth */ = {
+			isa = PBXGroup;
+			children = (
+				95F814F32056192900E57765 /* GoogleService-Info.plist */,
+				95F234612055044C00E4C49B /* AlphaHealth.entitlements */,
+				95F2341B2054555C00E4C49B /* AppDelegate.swift */,
+				95F2341D2054555C00E4C49B /* ViewController.swift */,
+				95F2341F2054555C00E4C49B /* Main.storyboard */,
+				95F234222054555C00E4C49B /* Assets.xcassets */,
+				95F234242054555C00E4C49B /* LaunchScreen.storyboard */,
+				95F2345220546E3400E4C49B /* Fonts */,
+				95F234272054555C00E4C49B /* Info.plist */,
+				95F234492054560B00E4C49B /* LoginViewController.swift */,
+				95F2344B20545DAF00E4C49B /* SignupViewController.swift */,
+				95F2345D20547A9900E4C49B /* DashboardViewController.swift */,
+				95F814E72055A16800E57765 /* TabBarViewController.swift */,
+				95F2345F20549A7E00E4C49B /* HistoryViewController.swift */,
+				95F814F520561FBE00E57765 /* testTableViewCell.swift */,
+			);
+			path = AlphaHealth;
+			sourceTree = "<group>";
+		};
+		95F2342F2054555C00E4C49B /* AlphaHealthTests */ = {
+			isa = PBXGroup;
+			children = (
+				95F234302054555C00E4C49B /* AlphaHealthTests.swift */,
+				95F234322054555C00E4C49B /* Info.plist */,
+			);
+			path = AlphaHealthTests;
+			sourceTree = "<group>";
+		};
+		95F2343A2054555C00E4C49B /* AlphaHealthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95F2343B2054555C00E4C49B /* AlphaHealthUITests.swift */,
+				95F2343D2054555C00E4C49B /* Info.plist */,
+			);
+			path = AlphaHealthUITests;
+			sourceTree = "<group>";
+		};
+		95F2345220546E3400E4C49B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				95F2344D20546E2A00E4C49B /* rajdhani-bold.ttf */,
+				95F2344F20546E2C00E4C49B /* rajdhani-light.ttf */,
+				95F2345020546E2D00E4C49B /* rajdhani-medium.ttf */,
+				95F2345120546E2E00E4C49B /* rajdhani-regular.ttf */,
+				95F2344E20546E2B00E4C49B /* rajdhani-semibold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		95F234622055044D00E4C49B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95F234632055044D00E4C49B /* HealthKit.framework */,
+				DD60772DB93DC0AB1D262873 /* Pods_AlphaHealth.framework */,
+				823E345745473F36423A34CF /* Pods_AlphaHealthTests.framework */,
+				081F08FFA41CF78BC37CF9A0 /* Pods_AlphaHealthUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95F234172054555C00E4C49B /* AlphaHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F234402054555C00E4C49B /* Build configuration list for PBXNativeTarget "AlphaHealth" */;
+			buildPhases = (
+				B849F10A39FB08C584A86267 /* [CP] Check Pods Manifest.lock */,
+				95F234142054555C00E4C49B /* Sources */,
+				95F234152054555C00E4C49B /* Frameworks */,
+				95F234162054555C00E4C49B /* Resources */,
+				79BDCAD27E68A6CC4CD8321E /* [CP] Embed Pods Frameworks */,
+				04C3CE87A58A42E4FC922008 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlphaHealth;
+			productName = AlphaHealth;
+			productReference = 95F234182054555C00E4C49B /* AlphaHealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95F2342B2054555C00E4C49B /* AlphaHealthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F234432054555C00E4C49B /* Build configuration list for PBXNativeTarget "AlphaHealthTests" */;
+			buildPhases = (
+				85B3EC081EE0AA64373ADBCD /* [CP] Check Pods Manifest.lock */,
+				95F234282054555C00E4C49B /* Sources */,
+				95F234292054555C00E4C49B /* Frameworks */,
+				95F2342A2054555C00E4C49B /* Resources */,
+				643F04E63AA0A600EE509430 /* [CP] Embed Pods Frameworks */,
+				52BF21095A07CB6047C3E8BE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95F2342E2054555C00E4C49B /* PBXTargetDependency */,
+			);
+			name = AlphaHealthTests;
+			productName = AlphaHealthTests;
+			productReference = 95F2342C2054555C00E4C49B /* AlphaHealthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95F234362054555C00E4C49B /* AlphaHealthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F234462054555C00E4C49B /* Build configuration list for PBXNativeTarget "AlphaHealthUITests" */;
+			buildPhases = (
+				07FDB0FDEC6468E6ED99E252 /* [CP] Check Pods Manifest.lock */,
+				95F234332054555C00E4C49B /* Sources */,
+				95F234342054555C00E4C49B /* Frameworks */,
+				95F234352054555C00E4C49B /* Resources */,
+				A9A491542AC849DB04802201 /* [CP] Embed Pods Frameworks */,
+				70AB8DED4EAB48A96AE25FFC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95F234392054555C00E4C49B /* PBXTargetDependency */,
+			);
+			name = AlphaHealthUITests;
+			productName = AlphaHealthUITests;
+			productReference = 95F234372054555C00E4C49B /* AlphaHealthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95F234102054555C00E4C49B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Saransh Mittal";
+				TargetAttributes = {
+					95F234172054555C00E4C49B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					95F2342B2054555C00E4C49B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95F234172054555C00E4C49B;
+					};
+					95F234362054555C00E4C49B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95F234172054555C00E4C49B;
+					};
+				};
+			};
+			buildConfigurationList = 95F234132054555C00E4C49B /* Build configuration list for PBXProject "AlphaHealth" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95F2340F2054555C00E4C49B;
+			productRefGroup = 95F234192054555C00E4C49B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95F234172054555C00E4C49B /* AlphaHealth */,
+				95F2342B2054555C00E4C49B /* AlphaHealthTests */,
+				95F234362054555C00E4C49B /* AlphaHealthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95F234162054555C00E4C49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F2345320546E7600E4C49B /* rajdhani-bold.ttf in Resources */,
+				95F2345420546E7600E4C49B /* rajdhani-light.ttf in Resources */,
+				95F814F42056192900E57765 /* GoogleService-Info.plist in Resources */,
+				95F2345520546E7600E4C49B /* rajdhani-medium.ttf in Resources */,
+				95F2345620546E7600E4C49B /* rajdhani-regular.ttf in Resources */,
+				95F2345720546E7600E4C49B /* rajdhani-semibold.ttf in Resources */,
+				95F234262054555C00E4C49B /* LaunchScreen.storyboard in Resources */,
+				95F234232054555C00E4C49B /* Assets.xcassets in Resources */,
+				95F234212054555C00E4C49B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F2342A2054555C00E4C49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F234352054555C00E4C49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04C3CE87A58A42E4FC922008 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlphaHealth/Pods-AlphaHealth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		07FDB0FDEC6468E6ED99E252 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlphaHealthUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52BF21095A07CB6047C3E8BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlphaHealthTests/Pods-AlphaHealthTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		643F04E63AA0A600EE509430 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlphaHealthTests/Pods-AlphaHealthTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70AB8DED4EAB48A96AE25FFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlphaHealthUITests/Pods-AlphaHealthUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79BDCAD27E68A6CC4CD8321E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlphaHealth/Pods-AlphaHealth-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftWebSocket/SwiftWebSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftWebSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlphaHealth/Pods-AlphaHealth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85B3EC081EE0AA64373ADBCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlphaHealthTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9A491542AC849DB04802201 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlphaHealthUITests/Pods-AlphaHealthUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B849F10A39FB08C584A86267 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlphaHealth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95F234142054555C00E4C49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F2345820546E7B00E4C49B /* rajdhani-bold.ttf in Sources */,
+				95F2345920546E7B00E4C49B /* rajdhani-light.ttf in Sources */,
+				95F2345A20546E7B00E4C49B /* rajdhani-medium.ttf in Sources */,
+				95F2345B20546E7B00E4C49B /* rajdhani-regular.ttf in Sources */,
+				95F814E82055A16800E57765 /* TabBarViewController.swift in Sources */,
+				95F2345C20546E7B00E4C49B /* rajdhani-semibold.ttf in Sources */,
+				95F2346020549A7E00E4C49B /* HistoryViewController.swift in Sources */,
+				95F2344A2054560B00E4C49B /* LoginViewController.swift in Sources */,
+				95F2341E2054555C00E4C49B /* ViewController.swift in Sources */,
+				95F814F620561FBE00E57765 /* testTableViewCell.swift in Sources */,
+				95F2345E20547A9900E4C49B /* DashboardViewController.swift in Sources */,
+				95F2344C20545DAF00E4C49B /* SignupViewController.swift in Sources */,
+				95F2341C2054555C00E4C49B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F234282054555C00E4C49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F234312054555C00E4C49B /* AlphaHealthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F234332054555C00E4C49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F2343C2054555C00E4C49B /* AlphaHealthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95F2342E2054555C00E4C49B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95F234172054555C00E4C49B /* AlphaHealth */;
+			targetProxy = 95F2342D2054555C00E4C49B /* PBXContainerItemProxy */;
+		};
+		95F234392054555C00E4C49B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95F234172054555C00E4C49B /* AlphaHealth */;
+			targetProxy = 95F234382054555C00E4C49B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95F2341F2054555C00E4C49B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F234202054555C00E4C49B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95F234242054555C00E4C49B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F234252054555C00E4C49B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95F2343E2054555C00E4C49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95F2343F2054555C00E4C49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95F234412054555C00E4C49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5046344B06D439E7F6C35F3 /* Pods-AlphaHealth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlphaHealth/AlphaHealth.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JCRFV5ZL52;
+				INFOPLIST_FILE = AlphaHealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyblue.AlphaHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95F234422054555C00E4C49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C88BE6231742B9EAD0856C /* Pods-AlphaHealth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlphaHealth/AlphaHealth.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JCRFV5ZL52;
+				INFOPLIST_FILE = AlphaHealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyblue.AlphaHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95F234442054555C00E4C49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82892AF8F614C71A69978DFE /* Pods-AlphaHealthTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlphaHealthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyblue.AlphaHealthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlphaHealth.app/AlphaHealth";
+			};
+			name = Debug;
+		};
+		95F234452054555C00E4C49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 295CB9AE4DBF426F81E1C758 /* Pods-AlphaHealthTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlphaHealthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyblue.AlphaHealthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlphaHealth.app/AlphaHealth";
+			};
+			name = Release;
+		};
+		95F234472054555C00E4C49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B114283D108D294871656519 /* Pods-AlphaHealthUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlphaHealthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyblue.AlphaHealthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlphaHealth;
+			};
+			name = Debug;
+		};
+		95F234482054555C00E4C49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968B62D0D11A41F288558E26 /* Pods-AlphaHealthUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlphaHealthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyblue.AlphaHealthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlphaHealth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95F234132054555C00E4C49B /* Build configuration list for PBXProject "AlphaHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F2343E2054555C00E4C49B /* Debug */,
+				95F2343F2054555C00E4C49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F234402054555C00E4C49B /* Build configuration list for PBXNativeTarget "AlphaHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F234412054555C00E4C49B /* Debug */,
+				95F234422054555C00E4C49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F234432054555C00E4C49B /* Build configuration list for PBXNativeTarget "AlphaHealthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F234442054555C00E4C49B /* Debug */,
+				95F234452054555C00E4C49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F234462054555C00E4C49B /* Build configuration list for PBXNativeTarget "AlphaHealthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F234472054555C00E4C49B /* Debug */,
+				95F234482054555C00E4C49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95F234102054555C00E4C49B /* Project object */;
+}
